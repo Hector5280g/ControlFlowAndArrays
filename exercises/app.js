@@ -23,14 +23,25 @@ if (number === 0){
     console.log("zero")
 }else if (number >0){
     if (number > 100){
-        console.log("possitive and greater than 100")
+        console.log("positive and greater than 100")
     }else if(number < 100){
-        console.log("possiive and smaller than 100")
+        console.log("positive and smaller than 100")
     } else {
-        console.log("possitive number")
+        console.log("positive number")
     }
 } else if (number < 0){
-    console.log("nagative number");
+    console.log("negative number");
 } else {
     console.log("please put in a number")
 }
+var marks=7;
+    if(marks>=90)
+    console.log("Grade A");
+    if(marks>=80 && marks<90)
+    console.log("Grade B");
+    if(marks>=70 && marks<80)
+    console.log("Grade C");
+    if(marks>=55 && marks<70)
+    console.log("Grade D");
+    if(marks<55)
+    console.log("Grade F");
