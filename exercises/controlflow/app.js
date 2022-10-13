@@ -45,3 +45,13 @@ var marks=7;
     console.log("Grade D");
     if(marks<55)
     console.log("Grade F");
+
+let ranks = 2 ;
+if (ranks == 1) {
+    console.log ("First place")
+}
+else if (ranks == 2  ) {
+    console.log ("second place")
+}
+else {console.log ("third place"
+)}
